@@ -1,0 +1,33 @@
+@import "../../../assets/global.less";
+section.job-container{
+  ul.job-list{
+    li.job-item{
+      padding: 50px 0;
+      &:nth-child(2n + 1){
+        background-color: #f8f8f8;
+      }
+      transition: .6s;
+      &:hover{
+        padding-left: 10px;;
+      }
+      .job-view{
+        .job-title{
+          font-weight: bold;
+          font-size: 24px;
+          color: @darkBlue;
+        }
+        .infos{
+          display: flex;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          .info{
+            width: 25%;
+            flex: 1 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+@import "./1200.less" screen and (max-width:1200px);
+@import "./768.less" screen and (max-width:768px);

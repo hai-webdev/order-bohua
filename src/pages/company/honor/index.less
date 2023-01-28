@@ -1,0 +1,32 @@
+@import "../../../assets/global.less";
+section.honor-container{
+  .honor-list{
+    .honor-item{
+      background-color: #f8f8f8;
+      padding: 20px 0;
+      margin-bottom: 50px;
+      .honor-view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .img{
+          width: 40%;
+          flex: 0 0 auto;
+          img{
+            max-width: 100%;
+            max-height: 300px;
+          }
+        }
+        .title{
+          padding: 0 30px;
+          font-size: 24px;
+          box-sizing: border-box;
+          flex: 1 1 auto;
+          text-align: center;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+@import "./768.less" screen and (max-width:768px);

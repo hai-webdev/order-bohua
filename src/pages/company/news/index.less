@@ -1,0 +1,51 @@
+@import "../../../assets/global.less";
+
+section.news-container{
+  ul.news-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    li.news-item{
+      width: 30%;
+      margin: 0 1.5% 3%;
+      background-color: #f8f8f8;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: .6s;
+      &:hover{
+        transform: translateY(-10px);
+      }
+      .img{
+        .bgImg(contain);
+        padding-top: 70%;
+        img{
+          display: block;
+        }
+      }
+      .info{
+        padding: 10px;
+        box-sizing: border-box;
+        .news-title{
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 1.7;
+          margin-bottom: 20px;
+          text-align: justify;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .date{
+          font-size: 16px;
+        }
+        .more{
+          display: block;
+          text-align: right;
+          font-size: 14px;
+          color: @blue;
+        }
+      }
+    }
+  }
+}
+@import "./1200.less" screen and (max-width:1200px);
+@import "./768.less" screen and (max-width:768px);

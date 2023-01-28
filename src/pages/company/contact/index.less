@@ -1,0 +1,41 @@
+@import "../../../assets/global.less";
+section.contact-container{
+  ul.contact-list{
+    li.contact-item{
+      border-bottom: 1px dashed #999;
+      padding: 50px 0;
+      &:last-child{
+        border-bottom: none;
+      }
+      .contact-view{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .map{
+          width: 450px;
+          img,
+          iframe{
+            width: 100%;
+          }
+        }
+        .cont{
+          width: calc(100% - 450px);
+          padding-left: 30px;
+          box-sizing: border-box;
+          .company{
+            font-size: 24px;
+            margin-bottom: 20px;
+            .info{
+              p{
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@import "./1200.less" screen and (max-width:1200px);
+@import "./768.less" screen and (max-width:768px);

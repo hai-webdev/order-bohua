@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>应用层-工业互联网</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../../common/header/index.html") %>
+    <section class="banner scroll-line" style="background-image: url(/public/img/industrial-banner.jpg);">
+      <div class="text-container center">
+        <div class="text">
+          <div class="cn wow fadeInLeft">工业互联网</div>
+          <div class="en wow fadeInLeft" data-wow-delay=".3s">THE INDUSTRIAL INTERNET</div>
+        </div>
+      </div>
+    </section>
+    <section class="cate-info">
+      <div class="main-info center wow fadeInUp">
+        平台聚焦石油化工、轨道交通、船舶动力、电力、装备制造等多个行业，为行业设备提供状态监测、故障预警、维修决策及生产排程优化等业务功能，集设备运行状态感知、数据分析、数据决策等解决方案于一体的物联网应用平台，旨在保障企业设备长周期、高效、节能、稳定的运行。
+      </div>
+    </section>
+    <section class="cate-nav-wrap">
+      <ul class="cate-nav-list center">
+        <li class="wow fadeInRight cate-nav-item">
+          <a href="industrial_internet.html">应用层</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".2s">
+          <a href="industrial_platform.html">平台层</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".4s">
+          <a href="industrial_blockchain.html">区块链</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item active" data-wow-delay=".6s">
+          <a href="industrial_edge.html">边缘端</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".8s">
+          <a href="industrial_sensor.html">传感器</a>
+        </li>
+      </ul>
+    </section>
+    <section class="module cont1 wow fadeInUp">
+      <div class="view-cont center">
+        <div class="title">
+          采用的边缘计算技术石化行业国内领先
+        </div>
+        <ul class="cont-list">
+          <li class="cont-item">
+            集成被监测对象的数学模型，并能实时更新，形成每一台设备专属的专属模型。实现动态阈值报警
+          </li>
+          <li class="cont-item">
+            集成FPGA、DSP、ARM、x86各个计算单元的完整解决方案，针对计算的不同要求，把计算任务分配到不同的计算单元上
+          </li>
+          <li class="cont-item">
+            具备数据状态的就地判断，本地存储，并实现关键数据与状态的优先存储和传输
+          </li>
+          <li class="cont-item">
+            具备处理温度压力、应力、振动等多种模拟l与数字量的接入，兼容MVBS，Modbus，OPC，DDE等多种工业协议，支持自定义协议的接入，支持REST, XML以及其他自定义方式的输出与调用
+          </li>
+          <li class="cont-item">
+            根据云端的结果动态更新对象模型
+          </li>
+          <li class="cont-item">
+            针对支持模拟量输入的网关，根据需求具备动态调整采集模块计算模块数量，实现高性价比，具备高同步性，各通道同步满足10微秒以下时延；
+          </li>
+          <li class="cont-item">
+            针对支持模拟量输入的网关，可适应不同的采样率，各通道采样率应支持从100-100k的采样设置。
+          </li>
+        </ul>
+        <img style="display:block;margin: 0 auto;" src="/public/img/edge01.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../../common/footer/index.html") %>
+</body>
+
+</html>

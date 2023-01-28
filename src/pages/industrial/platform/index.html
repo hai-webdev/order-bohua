@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>边缘端-工业互联网</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../../common/header/index.html") %>
+    <section class="banner scroll-line" style="background-image: url(/public/img/industrial-banner.jpg);">
+      <div class="text-container center">
+        <div class="text">
+          <div class="cn wow fadeInLeft">工业互联网</div>
+          <div class="en wow fadeInLeft" data-wow-delay=".3s">THE INDUSTRIAL INTERNET</div>
+        </div>
+      </div>
+    </section>
+    <section class="cate-info">
+      <div class="main-info center wow fadeInUp">
+        平台聚焦石油化工、轨道交通、船舶动力、电力、装备制造等多个行业，为行业设备提供状态监测、故障预警、维修决策及生产排程优化等业务功能，集设备运行状态感知、数据分析、数据决策等解决方案于一体的物联网应用平台，旨在保障企业设备长周期、高效、节能、稳定的运行。
+      </div>
+    </section>
+    <section class="cate-nav-wrap">
+      <ul class="cate-nav-list center">
+        <li class="wow fadeInRight cate-nav-item">
+          <a href="industrial_internet.html">应用层</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item active" data-wow-delay=".2s">
+          <a href="industrial_platform.html">平台层</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".4s">
+          <a href="industrial_blockchain.html">区块链</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".6s">
+          <a href="industrial_edge.html">边缘端</a>
+        </li>
+        <li class="wow fadeInRight cate-nav-item" data-wow-delay=".8s">
+          <a href="industrial_sensor.html">传感器</a>
+        </li>
+      </ul>
+    </section>
+    <section class="module cont1 wow fadeInUp">
+      <div class="view-cont center">
+        <div class="title">
+          装备健康监测智能维修云平台
+          <div class="note">
+            该平台提供石油、化工、冶金、地铁、船舶、能源、电力等行业装备的监/检测、故障预警、维修决策及生产排程优化等业务功能，从装备运行状态感知、数据分析到决策应用于一体物联网应用平台的产品解决方案，使企业装备实现安全、长周期、节能运行。
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="module cont2 wow fadeInUp" style="background-color: #f8f8f8;">
+      <div class="view-cont center">
+        <div class="title">
+          云平台架构
+          <div class="note">
+            健康监测智能维修云平台架构由感知层、网络层、应用层组成。
+          </div>
+        </div>
+        <img class=" wow fadeInUp" src="/public/img/platform01.jpg" alt="">
+        <dl class="cont-list">
+          <dd class="cont-item wow fadeInUp">
+            <div class="img">
+              <img src="/public/img/platform02.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont-title">感知层</div>
+              <div class="cont-info">
+                利用布置在各类监测对象（装备）上的传感器和采集数据系统获取装备运行状态/工艺信息，通过有线和无线的传感器网络将运行状态/工艺信息发送至网络层的数据中心。采集数据系统分为三类：第一类是BH5000系统的采集器；第二类是DCS系统、PLC、第三方采集系统等；第三类是测试仪器类的离线采集设备。
+              </div>
+            </div>
+          </dd>
+          <dd class="cont-item wow fadeInUp" data-wow-delay=".2s">
+            <div class="img">
+              <img src="/public/img/platform03.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont-title">网络层</div>
+              <div class="cont-info">
+                整个云平台架构的基础层，利用数据库、云平台分布式应用系统和网络设备等系统，完成数据高速传输、存储、数据分析、调度、发布以及数据信息的安全保护等。包括位于企业内部的监测诊断智能维修平台和位于博华科技的云端平台。博华科技的云端平台考虑到企业数据的安全和隐私需求，平台做了完整的数据隐私安全设计。云端平台的数据是企业数据的“安全”镜像。
+              </div>
+            </div>
+          </dd>
+          <dd class="cont-item wow fadeInUp" data-wow-delay=".4s">
+            <div class="img">
+              <img src="/public/img/platform04.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont-title">应用层</div>
+              <div class="cont-info">
+                应用层提供装备运行状态报警、分析、诊断、检维修管理、维修任务智能优化决策等功能。包括位于企业内部和博华科技的云端平台应用系统。云端平台主要是利用大数据机器学习技术对积累大量故障案例和检维修记录数据等进行训练学习，得到智能诊断模型和智能维修决策模型，为企业提供诊断和维修决策支持。同时随着数据的积累，智能诊断模型和智能维修决策模型会实时更新。
+              </div>
+            </div>
+          </dd>
+        </dl>
+      </div>
+    </section>
+    <section class="module cont3 wow fadeInUp">
+      <div class="view-cont center">
+        <div class="title">
+          云平台特点
+        </div>
+        <ul class="cont-list">
+          <li class="cont-item wow fadeInUp" data-wow-delay=".1s">
+            集装备运行/工艺状态监/检测、智能预警诊断、检维修管理、智能维修决策于一体的系统平台；
+          </li>
+          <li class="cont-item wow fadeInUp" data-wow-delay=".2s">
+            利用大数据机器学习技术对大量的故障案例和检维修信息训练学习得到智能诊断模型和智能维修决策模型，为企业提供智能诊断和维修决策支持。随着数据积累，在线学习和更新模型参数；
+          </li>
+          <li class="cont-item wow fadeInUp" data-wow-delay=".3s">
+            通过对安全传输协议和数据库加密技术对企业的运行状态数据、组织结构信息等提供安全和隐私保障；
+          </li>
+          <li class="cont-item wow fadeInUp" data-wow-delay=".4s">
+            支持监/检测不同种类的监测对象（装备）的振动（加速度、速度、位移）、压力、温度、转速、流量、电流、电压、润滑油等物理量；
+          </li>
+          <li class="cont-item wow fadeInUp" data-wow-delay=".5s">
+            支持API、OPC、MODBUS等通讯协议与第三方监/检测、DCS控制系统、PLC等进行数据交换；
+          </li>
+          <li class="cont-item wow fadeInUp" data-wow-delay=".6s">
+            具备基于手机、Pad等移动端的数据浏览、分析和决策支持。
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="module cont4 wow fadeInUp" style="background-color: #f8f8f8;">
+      <div class="view-cont center">
+        <div class="title">
+          云平台功能
+          <div class="note">
+            工业互联网平台包括装备监/检测系统、移动端装备监测诊断管理系统、云端的装备智能预警分析诊断系统以及智能维修决策管理系统，从装备监/检测、预警、分析、诊断、检维修、维修决策、装备耗材等覆盖装备管理各个层次。以“状态监测”为核心技术，集设备运行/工艺状态监/检测、智能预警诊断、检维修管理、智能维修决策于一体的系统平台：
+          </div>
+        </div>
+        <div class="box">
+          <div class="left wow fadeInLeft">
+            <img src="/public/img/platform05.png" alt="">
+          </div>
+          <div class="right wow fadeInRight">
+            <ul class="cont-list">
+              <li class="cont-item">
+                设备预警体系（可视化信息管理）
+              </li>
+              <li class="cont-item">
+                设备异常状态管理（设备状态、测点状态、状态监测）
+              </li>
+              <li class="cont-item">
+                检维修决策（监测参数、诊断结论）
+              </li>
+              <li class="cont-item">
+                可靠性数据采集（运行信息、检维修信息等）
+              </li>
+              <li class="cont-item">
+                设备安全风险评估（耗材使用寿命）
+              </li>
+              <li class="cont-item">
+                故障案例知识库
+              </li>
+              <li class="cont-item">
+                设备巡点检、设备档案等日常业务数据
+              </li>
+              <li class="cont-item">
+                关键绩效指标（可靠性/可用率、故障停机统计等）
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../../common/footer/index.html") %>
+</body>
+
+</html>

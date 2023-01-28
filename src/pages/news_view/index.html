@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>应用层-工业互联网</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner scroll-line" style="background-image: url(/public/img/industrial-banner.jpg);">
+      <div class="text-container center">
+        <div class="text">
+          <div class="cn wow fadeInLeft">新闻内容页</div>
+          <div class="en wow fadeInLeft" data-wow-delay=".3s">NEWS CONTENT PAGE</div>
+        </div>
+      </div>
+    </section>
+    <section class="module cont1 wow fadeInUp">
+      <div class="view-cont center">
+        <div class="title">
+          这里是该内容的新闻标题！
+        </div>
+        <div class="cont">
+          <p style="line-height: 1.5;margin-bottom:10px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sequi aperiam magni nobis et labore natus perspiciatis eveniet laborum, ipsa esse doloremque reiciendis, eaque, nihil nesciunt quos non cupiditate debitis!
+          </p>
+          <p style="line-height: 1.5;margin-bottom:10px">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione accusamus dolorem ea aperiam autem ut veniam consequuntur, ex mollitia, explicabo quisquam eius esse aliquid unde laboriosam atque perferendis voluptatibus corrupti.
+            <p style="line-height: 1.5;margin-bottom:50px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quod, doloribus ut illo sit tempora cum odit saepe ad explicabo iste earum adipisci natus eaque quia, illum provident labore consequatur?
+            </p>
+          </p>
+          <img src="/public/img/industrial01.jpg" alt="">
+          <img src="/public/img/industrial02.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>区块链-工业互联网</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../../common/header/index.html") %>
+  <%= require("html-loader!../header/index.html") %>
+    <section class="module cont1 wow fadeInUp">
+      <div class="view-cont center">
+        <div class="title">
+          区块链
+        </div>
+        <div class="note">
+          围绕平台接入能力，打造了基于工业互联网+区块链的平台端接入系统。
+        </div>
+        <ul class="cont-list">
+          <li class="cont-item">
+            一是基于“工业互联网平台+区块链”的边缘设备接入系统以边缘设备相关业务驱动为原则，基于设备分布式身份认证、授权管理、关联关系、关键数据等各应用场景，提供使用简单易用的区块链综合解决方案，构建可信任的分布式信任网络。
+          </li>
+          <li class="cont-item">
+            二是基于智能合约等链上服务，构建可信数据使用平台，实现工业数据资产确权，所有权与使用权分离。
+          </li>
+          <li class="cont-item">
+            三是优化链、包、合约、共识等核心算法与服务，持续提升了TPS等服务能力。
+          </li>
+        </ul>
+        <img style="display:block;margin: 0 auto;" src="/public/img/industrial_blockchain-1.jpg" alt="">
+      </div>
+    </section>
+    <section class="module cont2 wow fadeInUp" style="background-color: #f8f8f8;">
+      <div class="view-cont center">
+        <div class="note">
+          围绕智能网关，完善基于工业互联网平台+区块链的边缘设备接入系统。首先、基于国密等加密算法，构建支持多种边缘终端的区块链SDK，实现边缘设备的协议解析、数据接入以及区块链相关的边缘计算，提升设备接入能力与范围。其次、基于智能边缘网关中嵌入的区块链SDK实现边缘设备的身份认证、授权管理、访问控制以及关键数据上链等功能，为平台提供可靠、及时的边缘设备数据。最后、完善边缘网关整体架构设计，确保了边缘节点每秒处理交易的TPS值。
+        </div>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../../common/footer/index.html") %>
+</body>
+
+</html>
