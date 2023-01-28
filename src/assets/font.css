@@ -1,7 +1,0 @@
-@font-face{
-    font-family: 'SourceHanSans'; 
-    src: url('/public/fonts/SourceHanSansCN-Medium.eot');
-    src:url('/public/fonts/SourceHanSansCN-Medium.woff') format('woff'),
-        url('/public/fonts/SourceHanSansCN-Medium.ttf') format('truetype'),
-        url('/public/fonts/SourceHanSansCN-Medium.svg') format('svg');
-}
